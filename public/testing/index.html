@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr"> <!--Direction left to right in english-->
+
+<head> <!--random data like faviicon, .css file location, and site name-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works in progress</title>
+    <link rel="icon" href="https://hazelhen.neocities.org/Imagess/favicontest.png">
+    <link rel="stylesheet" href="https://hazelhen.neocities.org/NewLook/looks.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="headerArea">
+            <div id="header"></div>
+            <nav id="navbar" style="margin-bottom: 10px;">
+                <ul>
+                    <li><a href="https://hazelhen.neocities.org">Home</a></li>
+                    <li><a href="https://hazelhen.neocities.org/Art/index.html">Art</a></li>
+                    <li><a href="https://hazelhen.neocities.org/Imagess/pholdr.png">Writing</a></li>
+                    <li><a href="https://hazelhen.neocities.org/About/index.html">About</a></li>
+                    <li><a href="https://hazelhen.neocities.org/Imagess/steviekitty.png">Music</a></li>
+                    <li><a href="https://hazelhen.neocities.org/WIP/index.html">WIP</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</body>
+<style>
+    :root {
+    --header-image: url('https://hazelhen.neocities.org/Imagess/headertest.png');
+
+    /* colors */
+    --content: #43256E;
+}
+
+
+
+body {
+    font-family: 'Lucida Console', "Lucida Console", monospace;
+    font-size: 20px;
+    margin: 0;
+    background-color: #d19dfc;
+    /* you can delete the line below if you'd prefer to not use an image */
+    background-size: 160px;
+    color: #fceaff;
+    background-image: url('https://hazelhen.neocities.org/Imagess/bgrose.gif');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    position: unset;
+    height: 120px;
+    width: auto;
+    /* this is only for a background image! */
+    /* if you want to put images IN the header, 
+you can add them directly to the <div id="header"></div> element! */
+    background-image: var(--header-image);
+    background-size: cover;
+}
+
+/* navigation section!! */
+#navbar {
+    height: 40px;
+    background-color: #000000;
+    
+    /* navbar color */
+    width: 100%;
+}
+
+#navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#navbar li {
+    padding-top: 10px;
+}
+
+/* navigation links*/
+#navbar li a {
+    color: #e868bc;
+    /* navbar text color */
+    font-weight: 800;
+    text-decoration: none;
+    /* this removes the underline */
+}
+
+/* navigation link when a link is hovered over */
+#navbar li a:hover {
+    color: #a49cba;
+    text-decoration: underline;
+}
+
+#flex {
+    display: flex;
+}
+
+</style>
