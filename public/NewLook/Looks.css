@@ -1,12 +1,3 @@
-
-            /* user styles */
-
-        /* styles are what change the color and sizes of stuff on your site. */
-
-        /* these are variables that are being used in the code
-these tended to confuse some people, so I only kept 
-the images as variables */
-
 :root {
     --header-image: url('https://hazelhen.neocities.org/Imagess/header.png');
 
@@ -30,12 +21,6 @@ body {
 * {
     box-sizing: border-box;
 }
-
-/* below this line is CSS for the layout */
-
-/* this is a CSS comment
-to uncomment a line of CSS, remove the * and the /
-before and after the text */
 
 
 /* the "container" is what wraps your entire website */
