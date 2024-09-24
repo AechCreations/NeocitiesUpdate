@@ -1,6 +1,7 @@
 @font-face {
   font-family: "bodyfont";
-  src: url("https://hazelhen.neocities.org/.neocities.org/Fonts/Lucida Console Thin.tff");
+  src: url("https://hazelhen.neocities.org/Fonts/LucidaConsoleThin.tff");
+  color: #fceaff;
 }
 
 
@@ -14,7 +15,7 @@
 
 
 body {
-  font-family: 'Lucida Console', "Lucida Console", monospace;
+  font-family: bodyfont;
   font-weight: 100;
   font-size: 20px;
   margin: 0;
