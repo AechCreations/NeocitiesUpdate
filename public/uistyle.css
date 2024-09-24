@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Lucida Console', "Lucida Console", monospace;
+  font-weight: 100;
   font-size: 20px;
   margin: 0;
   background-color: #8a1e68;
