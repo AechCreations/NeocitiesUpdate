@@ -71,6 +71,7 @@ you can add them directly to the <div id="header"></div> element! */
 #navbar {
   height: 40px;
   background-color: #000000;
+  outline: 2px solid #000000;
   
   /* navbar color */
   width: 100%;
