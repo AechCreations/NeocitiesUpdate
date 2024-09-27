@@ -226,3 +226,21 @@
         flex-wrap: wrap;
     }
   }
+
+  .menu-btn {
+    margin: 0 10px;
+    font-size: 30px;
+    text-align: center;
+    a:link,
+    a:visited {
+        background-color: #8a1e68;
+        color: #fceaff;
+        padding: 3px 10px;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 2px solid #8a1e68;
+        border-radius: 7px;
+        }
+      }
