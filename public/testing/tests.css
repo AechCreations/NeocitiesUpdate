@@ -127,7 +127,8 @@ aside {
 /* this is the color of the main content area,
 between the sidebars! */
 main {
-  background: #a82840;
+  background: rgb(168,40,64);
+  background: linear-gradient(180deg, rgba(168,40,64,1) 0%, rgba(102,31,44,1) 83%);
   flex: 1;
   padding: 20px;
   order: 2;
