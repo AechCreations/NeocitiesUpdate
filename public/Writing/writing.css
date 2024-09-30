@@ -161,7 +161,9 @@ h3 {
 h1 {
   font-size: 25px;
 }
-
+h2{
+  font-family: 'Lucida Console', "Lucida Console", monospace;
+}
 strong {
   /* this styles bold text */
   color: #e868bc;
