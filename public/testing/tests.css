@@ -18,7 +18,7 @@ body {
   font-weight: 100;
   font-size: 20px;
   margin: 0;
-  background-color: #d9d3c7;
+  background-color: #a82840;
   /* you can delete the line below if you'd prefer to not use an image */
   background-size: 200px;
   color: #fceaff;
@@ -46,7 +46,7 @@ and change the media query according to the comment! */
 /* the area below is for all links on your page
 EXCEPT for the navigation */
 #container a {
-  color: #d9d3c7;
+  color: #c7445c;
   font-weight: bold;
   /* if you want to remove the underline
 you can add a line below here that says:
@@ -58,7 +58,7 @@ text-decoration:none; */
   height: 120px;
   width: auto;
   border: 4px solid #4f141f;
-  outline: 2px solid #d9d3c7;
+  outline: 2px solid #a82840;
   /* this is only for a background image! */
   /* if you want to put images IN the header, 
 you can add them directly to the <div id="header"></div> element! */
@@ -92,7 +92,7 @@ you can add them directly to the <div id="header"></div> element! */
 
 /* navigation links*/
 #navbar li a {
-  color: #d9d3c7;
+  color: #c7445c;
   /* navbar text color */
   font-weight: 800;
   text-decoration: none;
@@ -119,7 +119,7 @@ aside {
   padding: 20px;
   font-size: smaller;
   border: 4px solid #4f141f;
-  outline: 2px solid #d9d3c7;
+  outline: 2px solid #a82840;
   /* this makes the sidebar text slightly smaller */
 }
 
