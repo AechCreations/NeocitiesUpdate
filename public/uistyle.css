@@ -58,6 +58,7 @@ text-decoration:none; */
   height: 120px;
   width: auto;
   border: 4px solid #380d2a;
+  outline: 1px solid #8a1e68;
   /* this is only for a background image! */
   /* if you want to put images IN the header, 
 you can add them directly to the <div id="header"></div> element! */
@@ -70,7 +71,7 @@ you can add them directly to the <div id="header"></div> element! */
 #navbar {
   height: 40px;
   background-color: #000000;
-  outline: 2px solid #000000;
+  outline: 1px solid #000000;
   margin-top: 2px;
   
   /* navbar color */
@@ -118,7 +119,7 @@ aside {
   padding: 20px;
   font-size: smaller;
   border: 4px solid #380d2a;
-
+  outline: 1px solid #8a1e68
   /* this makes the sidebar text slightly smaller */
 }
 
@@ -132,7 +133,7 @@ main {
   padding: 20px;
   order: 2;
   border: 4px solid #380d2a;
-
+  outline: 1px solid #8a1e68;
 }
 
 /* what's this "order" stuff about??
