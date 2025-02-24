@@ -197,7 +197,7 @@ and then subtrack it by 100. use this new number as the
 "max-width" value below
 */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   #flex {
       flex-wrap: wrap;
   }
