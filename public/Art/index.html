@@ -5,63 +5,83 @@
 <head> <!--random data like faviicon, .css file location, and site name-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art Page</title>
+    <title>Art</title>
     <link rel="icon" href="https://hazelhen.neocities.org/Imagess/favicontest.png">
     <link rel="stylesheet" href="https://hazelhen.neocities.org/Art/arts.css">
 </head>
+
 <body>
-<div class = "intpage"> <!--header page-->
-<div class = "Hbttn"> <!--Current homebutton that has image of cat. when hovered changes image-->
-<a href="https://hazelhen.neocities.org/OldLook/index.html"><img src="https://hazelhen.neocities.org/Imagess/pholdr.png" alt="placeholder" title="Back to home page" width="132" height="132"
-    onmouseover="this.src='https://hazelhen.neocities.org/Imagess/pholdr2.png'"
-    onmouseout="this.src='https://hazelhen.neocities.org/Imagess/pholdr.png'" />
-</a>
-</div>
+    <div id="container">
+        <div id="headerArea">
+            <div id="header"></div>
+            <nav id="navbar" style="margin-bottom: 10px;">
+                <ul>
+                    <li><a href="https://hazelhen.neocities.org">Home</a></li>
+                    <li><a href="https://hazelhen.neocities.org/Art/index.html">Art</a></li>
+                    <li><a href="https://hazelhen.neocities.org/Writing/index.html">Writing</a></li>
+                    <li><a href="https://hazelhen.neocities.org/About/index.html">About</a></li>
+                    <li><a href="https://hazelhen.neocities.org/Imagess/steviekitty.png">Music</a></li>
+                    <li><a href="https://hazelhen.neocities.org/WIP/index.html">WIP</a></li>
+                </ul>
+            </nav>
+        </div>
 
-<div class = "Ttext"> <!--Title-->
-    <h1> Aech Creations </h1>
-</div>
-
-</div>
-
-<div class="bttns"> <!--menu buttons-->
-    <div class="menu-btn">
-      <a href="https://hazelhen.neocities.org/Art/index.html" target="_self">Art</a>
+        <div id="flex">
+            <aside id="leftSidebar" style="margin-right: 10px;">
+                <h2>Changelog</h2>
+                <div class="box">
+                    <p>This is my new ui</p>
+                    <ul style="padding-left:10px;">
+                      <br>10/1/24
+                      <li>Wrote a new thing on the writing page</li>
+                      <br>9/27/24
+                      <li>Created and finished the Writing page. <a href="https://hazelhen.neocities.org/Writing/index.html" target="_self"> Link to it if you want</a></li>
+                      <li>Wrote my first "blog" on the page as well.</li>
+                      <br>9/26/24
+                      <li>Started and finished work on the new About Me page. <a href="https://hazelhen.neocities.org/About/index.html" target="_self"> Check it out</a></li>
+                      <br>9/25/24
+                      <li>New UI has been fully finished and is now the main menu. Added <a href="https://hazelhen.neocities.org/Changelog/index.html" target="_self">A Changelog</a> page to organize old ones.</li>
+                    </ul>
+                </div>
+                <h2>Hi there</h2>
+                <h3>Other Things</h3>
+                <ul>
+                    <li><a href="https://hazelhen.neocities.org/Changelog/index.html" target="_self">All Changes</a></li>
+                    <li><a href="https://hazelhen.neocities.org/Imagess/steviekitty.png" target="_blank">For Fun link</a></li>
+                    <li><a href="https://goblin-heart.net/sadgrl/webmastery/downloads/tiledbgs.html" target="_blank">Tiled BGs</a></li>
+                </ul>
+            </aside>
+<main>
+    <h1>Welcome to the art page</h1>
+    <p>This is the art page
+    <br>
+    <br>This will have a section for art that I've made, as well as art that I like.
+    <br>Each will be on their own pages, probably with some writing from me about them.
+    <br> Both of these are placeholders for now. Just wanted to push this page out to show people
+    </p>
+    <div class = "ArtRow">
+      <div class = "ArtChoice">
+    <a href="https://hazelhen.neocities.org/Imagess/pholdr.png">
+      <img id = "pics" src="https://hazelhen.neocities.org/Imagess/tmailP.jpg" title="My Stuff" alt="Photography"
+     style='border: 3px solid #402e2e'>
+     <p>This leads to others art</p>
     </div>
 
-    <div class="menu-btn">
-      <a href="https://hazelhen.neocities.org/Imagess/pholdr.png" target="_blank">Blog</a>
-    </div>
-
-    <div class="menu-btn">
-      <a href="https://hazelhen.neocities.org/About/index.html" target="_self">About</a>
-    </div>
-
-    <div class="menu-btn">
-      <a href="https://hazelhen.neocities.org/Imagess/steviekitty.png" target="_blank">Music</a>
-    </div>
-
-    <div class="menu-btn">
-      <a href="https://hazelhen.neocities.org/WIP/index.html" target="_self">WIP</a>
-    </div>
+    <div class = "ArtChoice">
+  <a href="https://hazelhen.neocities.org/Imagess/pholdr.png">
+    <img id = "pics" src="https://hazelhen.neocities.org/Imagess/tmailP.jpg" title="My Stuff" alt="Photography"
+   style='border: 3px solid #402e2e'>
+   <p>This leads to my art</p>
   </div>
 
-<div class="wbbox"> <!--Bodybox for greeting-->
-<div class="greet"> <!--title of bodybox-->
-    <h2>Art</h2>
-</div> <!--Actual Text Starting-->
-<p>This is the art page! I will be posting any forms of art I make here
-<br> Below are the selections for the different themes for the art I do
-<br> Any poetry I (might) make will go to the Blog page unless made with an art piece
-<br> enjoy :)
-</p>
-<div class= "Poto"> <!--Shows a photo and when clicked on it leads back to home. Will lead to different place later-->
-<a href="https://hazelhen.neocities.org">
-  <img src="https://hazelhen.neocities.org/Imagess/tmailP.jpg" title="Photography Page (currently leads back to home)" alt="Photography"
-width="200px" height="auto" style='border: 5px solid #7A2C82'>
-</a>
-</div>
+  </div>
 
+</main>
+            
 </div>
+        </div>
+
+
+</body>
 
 </html>

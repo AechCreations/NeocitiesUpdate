@@ -1,93 +1,253 @@
 @font-face {
-    font-family: "Titlefont";
-    src: url("https://hazelhen.neocities.org/.neocities.org/Fonts/Titlefont.otf");
-    src: url("https://hazelhen.neocities.org/Fonts/Titlefont.ttf") format("woff"),
-         url("https://hazelhen.neocities.org/Fonts/Titlefont.otf") format("opentype"),
+    font-family: "bodyfont";
+    src: url("https://hazelhen.neocities.org/Fonts/LucidaConsoleThin.ttf") format(woff);
   }
-.intpage {
+  
+  
+  :root {
+    --header-image: url('https://hazelhen.neocities.org/Imagess/headerart.png');
+  
+    /* colors */
+    --content: #43256E;
+  }
+  
+  
+  
+  body {
+    font-family: 'Courier New', monospace;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 0;
+    background-color: #946c6c;
+    /* you can delete the line below if you'd prefer to not use an image */
+    background-size: 100px;
+    color: #fceaff;
+    background-image: url('https://hazelhen.neocities.org/Imagess/stars.gif');
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  /* the "container" is what wraps your entire website */
+  /* if you want something (like the header) to be Wider than
+  the other elements, you will need to move that div outside
+  of the container */
+  #container {
+    max-width: 1000px;
+    /* this is the width of your layout! */
+    /* if you change the above value, scroll to the bottom
+  and change the media query according to the comment! */
+    margin: 0 auto;
+    /* this centers the entire page */
+  }
+  
+  /* the area below is for all links on your page
+  EXCEPT for the navigation */
+  #container a {
+    color: #b07f7f;
+    font-weight: bold;
+    /* if you want to remove the underline
+  you can add a line below here that says:
+  text-decoration:none; */
+  }
+  
+  #header {
+    position: unset;
+    height: 120px;
+    width: auto;
+    border: 4px solid #402e2e;
+    outline: 2px solid #946c6c;
+    /* this is only for a background image! */
+    /* if you want to put images IN the header, 
+  you can add them directly to the <div id="header"></div> element! */
+    background-image: var(--header-image);
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  /* navigation section!! */
+  #navbar {
+    height: 40px;
+    background-color: #000000;
+    outline: 2px solid #000000;
+    margin-top:2px;
+    
+    /* navbar color */
+    width: 100%;
+  }
+  
+  #navbar ul {
     display: flex;
-    border-bottom: 7px solid #7A2C82;
-    background-color: #C95FBC;
-}
-
-.Hbttn{
-    margin: 0px;
-
-}
-.Ttext{
-    text-align: center;
-    font-size: 145%;
-    margin-top: 1%;
-    margin-right: 10%;
-    width: 80%;
-    color: #ffffff;
-    font-family: Titlefont;
-
-    }
-
-.bttns {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        border-bottom: 7px solid #7A2C82;
-        background-color: #C95FBC;
-        font-family: 'Lucida Console', "Lucida Console", monospace;
-      }
-
-.menu-btn {
-    margin: 0 10px;
-    font-size: 30px;
-    text-align: center;
-    a:link,
-    a:visited {
-        background-color: #7A2C82;
-        color: white;
-        padding: 3px 10px;
-        text-decoration: none;
-        display: inline-block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        border: 2px solid #7A2C82;
-        border-radius: 7px;
-        }
-      }
-
-body{
-    background-color: #C95FBC;
-    margin: 0px;
-    background-image: url(https://hazelhen.neocities.org/Imagess/pentaground.JPG);
-
-    }
-
-.greet{
-    color: #ffffff;
-    text-align: center;
-    border-bottom: 5px solid #7A2C82;
-    font-family: Titlefont;
-    margin: 0px;
-
-}
-
-.wbbox {
-  text-align: center;
-  background-color: #C95FBC;
-  border: 5px solid #7A2C82;
-  border-radius: 10px;
-  max-width: 95%;
-  padding: 10px;
-  margin-inline: 7%;
-  margin-top: 20px;
-}
-
-
-
-p{
-    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+  }
+  
+  #navbar li {
+    padding-top: 10px;
+  }
+  
+  /* navigation links*/
+  #navbar li a {
+    color: #b07f7f;
+    /* navbar text color */
+    font-weight: 800;
+    text-decoration: none;
+    /* this removes the underline */
+  }
+  
+  /* navigation link when a link is hovered over */
+  #navbar li a:hover {
+    color: #a49cba;
+    text-decoration: underline;
+  }
+  
+  #flex {
+    display: flex;
+  }
+  
+  /* this colors BOTH sidebars
+  if you want to style them separately,
+  create styles for #leftSidebar and #rightSidebar */
+  aside {
+    font-family: 'MS PGothic', sans-serif;
+    background-color: #553d3d;
+    width: 200px;
+    padding: 20px;
+    font-size: smaller;
+    border: 4px solid #402e2e;
+    outline: 2px solid #946c6c;
+    /* this makes the sidebar text slightly smaller */
+  }
+  
+  
+  /* this is the color of the main content area,
+  between the sidebars! */
+  main {
+    background: rgb(148, 108, 108);
+    background: linear-gradient(180deg, rgba(148, 108, 108, 1) 0%, rgba(64, 46, 46, 1) 83%);
+    flex: 1;
+    padding: 20px;
+    order: 2;
+    border: 4px solid #402e2e;
+    outline: 2px solid #946c6c;
+  }
+  
+  /* what's this "order" stuff about??
+  allow me to explain!
+  if you're using both sidebars, the "order" value
+  tells the CSS the order in which to display them.
+  left sidebar is 1, content is 2, and right sidebar is 3! */
+  
+  */ #leftSidebar {
+    order: 1;
+  }
+  
+  #rightSidebar {
+    order: 3;
+  }
+  
+  
+  h1,
+  h2,
+  h3 {
+    color: #fceaff;
+  }
+  
+  h2{
     font-family: 'Lucida Console', "Lucida Console", monospace;
-    margin-bottom: 0px;
-    margin-top: 0px;
+  }
+  
+  h1 {
+    font-size: 25px;
+  }
+  
+  strong {
+    /* this styles bold text */
+    color: #e868bc;
+  }
+  
+  /* this is just a cool box, it's the darker colored one */
+  .box {
+    background-color: #402e2e;  
+    border: 1px solid #946c6c;
+    padding: 10px;
+  }
+  
+  /* CSS for extras */
+  
+  #topBar {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    font-size: smaller;
+    background-color: #13092D;
+  }
+  
+  
+  /* BELOW THIS POINT IS MEDIA QUERY */
+  
+  /* so you wanna change the width of your page? 
+  by default, the container width is 900px.
+  in order to keep things responsive, take your new height,
+  and then subtrack it by 100. use this new number as the 
+  "max-width" value below
+  */
+  
+  @media only screen and (max-width: 800px) {
+    #flex {
+        flex-wrap: wrap;
     }
-h2{
-    margin: 0px;
-    font-size: 40px;
-}
+  
+    aside {
+        width: 100%;
+    }
+  
+    /* the order of the items is adjusted here for responsiveness!
+  since the sidebars would be too small on a mobile device.
+  feel free to play around with the order!
+  */
+    main {
+        order: 1;
+    }
+  
+    #leftSidebar {
+        order: 2;
+    }
+  
+    #rightSidebar {
+        order: 3;
+    }
+  
+    #navbar ul {
+        flex-wrap: wrap;
+    }
+  }
+  img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  #pics{
+    width: 65%;
+    height: auto;
+    min-width: 150px;
+    min-height: auto;
+  }
+  
+  .ArtChoice{
+  float: left;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+  }
+  
+  .ArtRow::after{
+  content: "";
+  clear: both;
+  display: table;
+  }

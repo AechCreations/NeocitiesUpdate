@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Titlefont";
+    src: url("https://hazelhen.neocities.org/.neocities.org/Fonts/Titlefont.otf");
+    src: url("https://hazelhen.neocities.org/Fonts/Titlefont.ttf") format("woff"),
+         url("https://hazelhen.neocities.org/Fonts/Titlefont.otf") format("opentype"),
+  }
+.intpage {
+    display: flex;
+    border-bottom: 7px solid #7A2C82;
+    background-color: #C95FBC;
+}
+
+.Hbttn{
+    margin: 0px;
+
+}
+.Ttext{
+    text-align: center;
+    font-size: 145%;
+    margin-top: 1%;
+    margin-right: 10%;
+    width: 80%;
+    color: #ffffff;
+    font-family: Titlefont;
+
+    }
+
+.bttns {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-bottom: 7px solid #7A2C82;
+        background-color: #C95FBC;
+        font-family: 'Lucida Console', "Lucida Console", monospace;
+      }
+
+.menu-btn {
+    margin: 0 10px;
+    font-size: 30px;
+    text-align: center;
+    a:link,
+    a:visited {
+        background-color: #7A2C82;
+        color: white;
+        padding: 3px 10px;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 2px solid #7A2C82;
+        border-radius: 7px;
+        }
+      }
+
+body{
+    background-color: #C95FBC;
+    margin: 0px;
+    background-image: url(https://hazelhen.neocities.org/Imagess/pentaground.JPG);
+
+    }
+
+.greet{
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 5px solid #7A2C82;
+    font-family: Titlefont;
+    margin: 0px;
+
+}
+
+.wbbox {
+  text-align: center;
+  background-color: #C95FBC;
+  border: 5px solid #7A2C82;
+  border-radius: 10px;
+  max-width: 95%;
+  padding: 10px;
+  margin-inline: 7%;
+  margin-top: 20px;
+}
+
+
+
+p{
+    text-align: center;
+    font-family: 'Lucida Console', "Lucida Console", monospace;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    }
+h2{
+    margin: 0px;
+    font-size: 40px;
+}
