@@ -58,7 +58,6 @@ text-decoration:none; */
   height: 120px;
   width: auto;
   border: 4px solid #380d2a;
-  outline: 2px solid #8a1e68;
   /* this is only for a background image! */
   /* if you want to put images IN the header, 
 you can add them directly to the <div id="header"></div> element! */
@@ -119,7 +118,7 @@ aside {
   padding: 20px;
   font-size: smaller;
   border: 4px solid #380d2a;
-  outline: 2px solid #8a1e68
+
   /* this makes the sidebar text slightly smaller */
 }
 
@@ -133,7 +132,7 @@ main {
   padding: 20px;
   order: 2;
   border: 4px solid #380d2a;
-  outline: 2px solid #8a1e68;
+
 }
 
 /* what's this "order" stuff about??
@@ -197,7 +196,7 @@ and then subtrack it by 100. use this new number as the
 "max-width" value below
 */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   #flex {
       flex-wrap: wrap;
   }
